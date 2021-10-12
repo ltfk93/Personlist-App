@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Edit page</title>
+        <meta charset="UTF-8">
+        <link href="/styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topBar">
+            <h1>Edit for person <p id="personToEdit"></p></h1>
+        </div>
+        <div class="container">
+            <div id="personDiv">
+                <span>First name: <input class="title-input" type="text" id="firstName"></span><br>
+                <span>Last name: <input class="title-input" type="text" id="lastName"></span><br>
+                <span>Address: <input class="title-input" type="text" id="address"></span><br>
+                <span>BirthDate: <input class="title-input" type="date" id="birthDate"></span><br>
+                Notes:<br>
+                <textarea class="body-input" id="noteArea"></textarea><br>
+                <button id="editPerson">Edit</button>
+                <button id="removePerson">Remove</button>
+                <button id="returnButton">Return to list</button><br>
+                <p id="lastEdited" class="list-item__subtitle"></p>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+        <script src="/scripts/personScript.js"></script>
+        <script src="/scripts/personEdit.js"></script>
+    </body>
+</html>

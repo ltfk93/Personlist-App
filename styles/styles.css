@@ -1,0 +1,84 @@
+.topBar
+{
+    text-align: center;
+    background-color:teal;
+    color:white;
+    padding: 1.6rem 0;
+}
+.info
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+button
+{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:cadetblue;
+    color:white;
+    font-weight: 200;
+    transition: background .3s ease;
+}
+button:hover
+{
+    background-color: #5f8ea9;
+}
+.person
+{
+    background-color:red;
+    margin: 50px;
+}
+.list-item {
+    text-decoration: none;
+    color: #333333;
+    background: #F7F7F7;
+    border: 1px solid #dedfe0;
+    margin: 1.6rem 0;
+    padding: .6rem;
+    display: block;
+    transition: background .3s ease;
+}
+
+.list-item:hover {
+    background: #eeeeee;
+}
+
+.list-item__title {
+    font-size: 1.1rem;
+    margin-bottom: .4rem;
+    font-family:monospace;
+}
+
+.list-item__subtitle {
+    color: #666;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-style: italic;
+}
+.title-input {
+    border: 1px solid #DEDFE0;
+    font-size: 2rem;
+    font-weight: 300;
+    display: block;
+    margin-bottom: -20px;
+    padding: .4rem;
+    width: 95%;
+}
+
+.body-input {
+    border: 1px solid #DEDFE0;
+    font-family: inherit;
+    font-size: 1.6rem;
+    font-weight: 300;
+    display: block;
+    margin: 1.4rem 0;
+    min-height: 7rem;
+    padding: .8rem;
+    width: 95%;
+}
+.list-item__subtitle {
+    color: #666;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-style: italic;
+}

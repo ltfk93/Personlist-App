@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personliste side</title>
+        <meta charset="UTF-8">
+        <link href="/styles/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="topBar">
+            <h1>Side for Personliste test</h1>
+        </div><hr><br>
+        <div class="liste">
+            <div id="personListe">
+                <label class="info">First name: <input type="text" id="firstName"></label><br>
+                <label class="info">Last name: <input type="text" id="lastName"></label><br>
+                <label class="info">Birthdate: <input type="date" id="birthDate"></label><br>
+                <label class="info">Address: <input type="text" id="address"></label><br>
+                <button id="addPerson">Add person</button><br><br>
+        </div>
+        <span><input type="text" id="filterID"> 
+        <select id="filterOptions">
+            <option>First Name</option>
+            <option>Last name</option>
+            <option>Address</option>
+         </select></span><br>
+        <span>Sort by: <select id="sortID">
+            <option>First name</option>
+            <option>Last name</option>
+            <option>Registered</option>
+            <option>Address</option>
+            <option>Last edited</option>
+        </select></span>
+        </div>
+        <div id="listArea">
+            
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+        <script src="/scripts/personScript.js"></script>
+        <script src="/scripts/scriptPerson.js"></script>
+    </body>
+</html>
